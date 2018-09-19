@@ -12,7 +12,7 @@ section .text           ;start of section with code
       dd - (0x1BADB002 + 0x00) ;should be zero
 
 global start            ;nasm directive - global symbols
-extern kernelmain	          ;kmain is defined in the c file
+extern kernelmain	      ;kernelmain is defined in the c file
 
 start:
   cli 			            ;block interrupts
