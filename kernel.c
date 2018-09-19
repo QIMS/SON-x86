@@ -8,10 +8,10 @@
 
 void kernelmain(void)
 {
-  const char *str = "\t\tSON\nthe System for One Night"; // Экран приветствия
+  const char *str = "SON: 'the System for One Night'"; // Экран приветствия
   char *vidptr = (char*)0xb8000; // Указатель на адрес начала видеопамяти
   unsigned int j = 0;
-  unsigned int j = 0;
+  unsigned int i = 0;
 
 /*
 * Clear screen loop
